@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model List<ProductModel>
+
+  <ul>
+  @foreach(var item in Model)
+  {
+    <li>
+          @item.ProductName - @item.Stock - @item.Price - @item.Category
+    </li>
+
+  }
+</ul>
