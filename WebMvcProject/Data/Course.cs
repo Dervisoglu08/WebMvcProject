@@ -6,7 +6,7 @@ namespace WebMvcProject.Data
   {
     public int Id { get; set; }
 
-    [Required(ErrorMessage ="Kurs Adı Boş Geçilemez")]
+    [Required(ErrorMessage ="Kurs Adı Boş Geçilemeeez")]
     [MaxLength(50)]
     public string Name { get; set; }
 
